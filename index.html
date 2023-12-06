@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7303ff3d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id='header'>
+        <div class="container">
+            <nav>
+                <img src="images/7a030573d0b43a324fc9dba2e906699d.jpg" class="logo" alt="logo.png">
+                <ul id="sidemenu">
+                    <li class="contact-link"><a href="#header"> Home </a></li>
+                    <li class="contact-link"><a href="#about"> About </a></li>
+                    <li class="contact-link"> <a href="#services"> Service </a></li>
+                    <li class="contact-link"><a href="#portfolio"> Portfolio </a></li>
+                    <li class="contact-link"><a href="#contact"> Contact </a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Data Analyst </p>
+                <h1> Hi, I'm <span> Sandeep Kumar </span><br>From India</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/neew.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Passionate and dedicated 2 year Master of Data science student with a keen interest in Machine
+                        Learning and Data Analytics. I am driven by the potential of leveraging data to extract valuable
+                        insights and make informed decisions. Throughout my academic journey, I have gained a solid
+                        foundation in computer science principles and programming language such as Python. I have also
+                        completed coursework focused on algorithms, data structures, and machine learning.
+
+                        I am open to internship opportunities, research collaborations, and industry networking. Feel
+                        free to reach out to discuss how we can work together to leverage data for meaningful insights
+                        and positive outcomes. Let's connect and explore the exciting possibilities at the intersection
+                        of Computer Science, Machine Learning, and Data Analytics!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')"> Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class=" tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designig web/App inyter-faces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andorid/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>2023-current</span><br>UI/UX Design Training at CHRIST deemed to be university
+                            </li>
+                            <li><span>2022-2023</span><br>Team lead at StartApp</li>
+                            <li><span>2021-2022</span><br>UI/UX Design Executive at Amazon</li>
+                            <li><span>2020-2021</span><br>Internship at ABC Company</li>
+                            <li><span>2019-2020</span><br>UI/UX Design Training at somewhere</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BSc from Patna University</li>
+                            <li><span>2019</span><br>Intermediate from Army Public school</li>
+                            <li><span>2017</span><br>Matric from Army Public school</li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-python fa-inverse"></i>
+                    <h2>Python</h2>
+                    <p>Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms and has a vast ecosystem of libraries and frameworks</p>
+                    <a href="">learn more </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Java is a versatile, object-oriented programming language developed by Sun Microsystems, now owned by Oracle. It is designed to be platform-independent, allowing developers to write code that can run on any device with a Java Virtual Machine (JVM).</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>App design involves creating the visual interface and user experience for mobile applications. It encompasses both User Interface (UI) design, focusing on the app's visual elements, and User Experience (UX) design, ensuring a seamless and user-friendly interaction, collectively aiming to deliver an engaging and efficient mobile app</p>
+                    <a href="">learn more </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nisi hic quis!
+                            Blanditiis voluptate sequi cumque maiores distinctio. Cumque ad amet, aliquam numquam maxime
+                            ullam adipisci reprehenderit aut atque. Sequi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sksandy3869@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 233824252</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/captainsandeepkumar"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/Sandeep92419369"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/sandeepkumar__._/"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sandeep-kumar-2a4246238/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="images/Resume-SandeepKumar.pdf" download class="btn btn2">Dowmload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thank you<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
