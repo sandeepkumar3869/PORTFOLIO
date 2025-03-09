@@ -21,7 +21,11 @@ body {
     background-position: center;
 } */
 
-
+#download-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 #header {
     width: 100%;
